@@ -27,7 +27,7 @@ services:
     registry:
         depends_on:
             - db
-        image: dronedb/registry:dev
+        image: dronedb/registry
         tmpfs:
             - /tmp
         volumes:
